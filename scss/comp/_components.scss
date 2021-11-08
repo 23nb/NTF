@@ -1,0 +1,29 @@
+.logo {
+	@include font(24px,600);
+	color: $black;
+}
+
+.title {
+	@include font(20px,500);
+}
+.gray {
+	@include font(16px,400);
+	color: $gray;
+}
+.num {
+	@include font(20px,500);
+}
+.more {
+	margin-top: 30px;
+	text-align: center;
+	a {
+		text-decoration: none;
+		@include font(16px,500);
+		border: 1px solid #AEAEB2;
+		box-sizing: border-box;
+		border-radius: 48px;
+		padding: 16px 64px 13px 64px;
+		color: $black;
+	}
+}
+
